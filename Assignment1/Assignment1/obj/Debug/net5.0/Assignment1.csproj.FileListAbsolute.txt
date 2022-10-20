@@ -1,0 +1,16 @@
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/bin/Debug/net5.0/Assignment1
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/bin/Debug/net5.0/Assignment1.deps.json
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/bin/Debug/net5.0/Assignment1.runtimeconfig.json
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/bin/Debug/net5.0/Assignment1.runtimeconfig.dev.json
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/bin/Debug/net5.0/Assignment1.dll
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/bin/Debug/net5.0/Assignment1.pdb
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.csproj.AssemblyReference.cache
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.AssemblyInfoInputs.cache
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.AssemblyInfo.cs
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.csproj.CoreCompileInputs.cache
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.dll
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/refint/Assignment1.dll
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.pdb
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/Assignment1.genruntimeconfig.cache
+/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/obj/Debug/net5.0/ref/Assignment1.dll
