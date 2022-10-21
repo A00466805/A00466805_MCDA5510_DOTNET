@@ -25,7 +25,6 @@ namespace Assignment1
 
             string[] list = Directory.GetDirectories(path);
 
-
             if (list == null) return;
 
             foreach (string dirpath in list)
@@ -33,9 +32,11 @@ namespace Assignment1
                 if (Directory.Exists(dirpath))
                 {
                     walk(dirpath);
-                    Console.WriteLine("Dir:" + dirpath);
+                    Console.WriteLine("Dir:" + dirpath + "Length: " + dirpath.Length);
                     log.Info("Dir: " + dirpath);
                 }
+                
+                
             }
             string[] fileList = Directory.GetFiles(path);
             foreach (string filepath in fileList)
@@ -44,14 +45,14 @@ namespace Assignment1
                 Console.WriteLine("File:" + filepath);
                 if (filepath.Contains(".csv"))
                 {
-                    readFile(filepath);
+                    readFile(filepath,filepath.Substring(68,10));
                 }
                 log.Info("File: " + filepath);
                 //81834
             }
         }
 
-        public static void readFile(string currentFile)
+        public static void readFile(string currentFile,String date)
         {
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
@@ -60,7 +61,7 @@ namespace Assignment1
             };
             using (var sr = new StreamReader(currentFile))
             {
-                using (var sw = new StreamWriter(@"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/finalFile2.csv", true))
+                using (var sw = new StreamWriter(@"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/finalFile1.csv", true))
                 {
                     var reader = new CsvReader(sr, config);
                     var writer = new CsvWriter(sw, config);
@@ -70,6 +71,8 @@ namespace Assignment1
                     var recordList = dataRecords.ToList();
                     List<CustomerData> removeFromList = new List<CustomerData>();
                     foreach (CustomerData record in recordList) {
+                        //Console.Write("Date: "+date);
+                        record.date = date;
                         if (String.IsNullOrEmpty(record.fName) || String.IsNullOrEmpty(record.city) || String.IsNullOrEmpty(record.country) || String.IsNullOrEmpty(record.email) || String.IsNullOrEmpty(record.lName)
                             || String.IsNullOrEmpty(record.phonenum) || String.IsNullOrEmpty(record.postalcode) || String.IsNullOrEmpty(record.province) || String.IsNullOrEmpty(record.street) || String.IsNullOrEmpty(record.streetnum)) {
                             count++;
@@ -78,6 +81,8 @@ namespace Assignment1
                     }
                     //recordList.RemoveAll;
                     List<CustomerData> list = recordList.Except(removeFromList).ToList();
+                    //Console.WriteLine(list)
+                    //list.RemoveAt(0);
                     writer.WriteRecords(list);
 
                 }
