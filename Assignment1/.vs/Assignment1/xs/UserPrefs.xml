@@ -1,26 +1,29 @@
 ﻿<Properties StartupConfiguration="{F3D38D4D-7D06-4A2D-A987-F7E20D9B17ED}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <RunToCursorBreakpoint file="/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/SimpleCSVParser.cs" relfile="Assignment1/SimpleCSVParser.cs" line="7" column="33" />
-      <RunToCursorBreakpoint file="/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/SimpleCSVParser.cs" relfile="Assignment1/SimpleCSVParser.cs" line="8" column="6" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Assignment1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1/SimpleCSVParser.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1/DirWalker.cs">
     <Files>
-      <File FileName="Assignment1/DirWalker.cs" Line="19" Column="45" />
+      <File FileName="Assignment1/DirWalker.cs" Line="22" Column="14" />
       <File FileName="Assignment1/Exceptions.cs" Line="20" Column="12" />
       <File FileName="Assignment1/README.txt" Line="1" Column="1" />
       <File FileName="Assignment1/sampleFile.csv" Line="1" Column="1" />
-      <File FileName="Assignment1/SimpleCSVParser.cs" Line="17" Column="1" />
+      <File FileName="Assignment1/SimpleCSVParser.cs" Line="16" Column="1" />
+      <File FileName="Assignment1/Log4.config" Line="13" Column="42" />
+      <File FileName="Assignment1/App.config" Line="9" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Assignment1" expanded="True" selected="True">
+          <Node name="Assignment1" expanded="True">
             <Node name="Assignment1" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -30,6 +33,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

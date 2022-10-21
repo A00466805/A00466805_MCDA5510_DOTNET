@@ -1,12 +1,14 @@
 ﻿using System;
 using System.IO;
 
+
 namespace Assignment1
 {
   
 
-    public class DirWalker
+    public class DirWalker 
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public void walk(String path)
         {
@@ -22,6 +24,7 @@ namespace Assignment1
                 {
                     walk(dirpath);
                     Console.WriteLine("Dir:" + dirpath);
+                    log.Info("Dir: " + dirpath);
                 }
             }
             string[] fileList = Directory.GetFiles(path);
@@ -29,14 +32,17 @@ namespace Assignment1
             {
 
                     Console.WriteLine("File:" + filepath);
+                log.Info("File: " + filepath);
             }
         }
 
-        public static void Main(String[] args)
-        {
-            DirWalker fw = new DirWalker();
-            fw.walk(@"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Sample Data");
-        }
+        //public static void Main(String[] args)
+        //{
+        //    DirWalker fw = new DirWalker();
+        //    log4net.Config.XmlConfigurator.Configure();
+        //    log.Info("Hello world");
+        //    fw.walk(@"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Sample Data");
+        //}
 
     }
 }
