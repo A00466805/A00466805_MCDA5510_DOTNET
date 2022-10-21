@@ -7,33 +7,33 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using CsvHelper.Configuration.Attributes;
 using Microsoft.VisualBasic.FileIO;
-using SearchOption = System.IO.SearchOption;
 
 namespace Assignment1
 {
     public class CustomerData
     {
         [Name("First Name")]
-        public string fName { get; set; }
+        public String fName { get; set; }
         [Name("Last Name")]
-        public string lName { get; set; }
+        public String lName { get; set; }
         [Name("Street Number")]
-        public int streetnum { get; set; }
+        public String streetnum { get; set; }
         [Name("Street")]
-        public string street { get; set; }
+        public String street { get; set; }
         [Name("City")]
-        public string city { get; set; }
+        public String city { get; set; }
         [Name("Province")]
-        public string province { get; set; }
+        public String province { get; set; }
         [Name("Postal Code")]
-        public string postalcode { get; set; }
+        public String postalcode { get; set; }
         [Name("Country")]
-        public string country { get; set; }
+        public String country { get; set; }
         [Name("Phone Number")]
-        public string phonenum { get; set; }
+        public String phonenum { get; set; }
         [Name("email Address")]
-        public string email { get; set; }
-        //public String date
+        public String email { get; set; }
+        [Name("Date")]
+        public String date { get; set; }
 
 
     }
@@ -42,24 +42,24 @@ namespace Assignment1
     {
 
 
-        public static void Main(String[] args)
-        {
-            SimpleCSVParser parser = new SimpleCSVParser();
-            //parser.parse(@"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/sampleFile.csv");
-            //var config = new CsvConfiguration(CultureInfo.InvariantCulture)
-            //{
-            //    NewLine = Environment.NewLine,
-            //    //HasHeaderRecord = false
-            //};
-            String sourceDirectory = @"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/CustomerData0.csv";
-            //var csvFiles = Directory.EnumerateFiles(sourceDirectory, " *.csv", SearchOption.AllDirectories);
-            readFile(sourceDirectory);
-            //foreach (string currentFile in csvFiles)
-            //{
-            //    Console.WriteLine(currentFile);
-            //    readFile(currentFile);
-            //}
-        }
+        //public static void Main(String[] args)
+        //{
+        //    SimpleCSVParser parser = new SimpleCSVParser();
+        //    //parser.parse(@"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/sampleFile.csv");
+        //    //var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+        //    //{
+        //    //    NewLine = Environment.NewLine,
+        //    //    //HasHeaderRecord = false
+        //    //};
+        //    String sourceDirectory = @"/Users/shreerag/MCDA/MCDA5510/A00466805_MCDA5510_DOTNET/Assignment1/Assignment1/CustomerData0.csv";
+        //    //var csvFiles = Directory.EnumerateFiles(sourceDirectory, " *.csv", SearchOption.AllDirectories);
+        //    readFile(sourceDirectory);
+        //    //foreach (string currentFile in csvFiles)
+        //    //{
+        //    //    Console.WriteLine(currentFile);
+        //    //    readFile(currentFile);
+        //    //}
+        //}
 
         public static void readFile(string currentFile)
         {
