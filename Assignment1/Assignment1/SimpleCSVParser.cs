@@ -10,33 +10,7 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace Assignment1
 {
-    public class CustomerData
-    {
-        [Name("First Name")]
-        public String fName { get; set; }
-        [Name("Last Name")]
-        public String lName { get; set; }
-        [Name("Street Number")]
-        public String streetnum { get; set; }
-        [Name("Street")]
-        public String street { get; set; }
-        [Name("City")]
-        public String city { get; set; }
-        [Name("Province")]
-        public String province { get; set; }
-        [Name("Postal Code")]
-        public String postalcode { get; set; }
-        [Name("Country")]
-        public String country { get; set; }
-        [Name("Phone Number")]
-        public String phonenum { get; set; }
-        [Name("email Address")]
-        public String email { get; set; }
-        [Name("Date")]
-        [Optional]
-        public String date { get; set; }
-
-    }
+    
 
 
     public class SimpleCSVParser

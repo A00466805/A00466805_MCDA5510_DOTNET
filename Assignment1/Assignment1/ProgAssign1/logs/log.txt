@@ -1,19 +1,44 @@
-2022-10-21 15:45:13,342 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
-2022-10-21 15:48:01,105 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 167704 ms
-2022-10-21 15:48:01,106 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
-2022-10-21 15:48:01,106 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 81834
-2022-10-21 15:48:01,106 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
-2022-10-21 15:48:01,106 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 201075
-2022-10-21 18:05:26,189 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
-2022-10-21 18:14:44,881 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
-2022-10-21 18:17:38,403 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 173466 ms
-2022-10-21 18:17:38,403 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
-2022-10-21 18:17:38,403 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 81834
-2022-10-21 18:17:38,403 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
-2022-10-21 18:17:38,403 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 201075
-2022-10-21 18:57:39,872 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
-2022-10-21 18:58:45,995 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 66072 ms
-2022-10-21 18:58:45,998 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
-2022-10-21 18:58:45,998 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 81834
-2022-10-21 18:58:45,998 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
-2022-10-21 18:58:45,998 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 201075
+2022-10-21 19:43:27,940 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 19:43:28,111 [1] ERROR Assignment1.DirWalker [(null)] - The directory cannot be found.
+2022-10-21 19:43:28,503 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 479 ms
+2022-10-21 19:43:28,503 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 19:43:28,503 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 0
+2022-10-21 19:43:28,503 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 19:43:28,503 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 0
+2022-10-21 19:44:54,205 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 19:45:58,535 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 61511 ms
+2022-10-21 19:45:58,536 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 19:45:58,536 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 81834
+2022-10-21 19:45:58,536 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 19:45:58,537 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 201075
+2022-10-21 20:02:37,922 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 20:03:40,966 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 62959 ms
+2022-10-21 20:03:40,966 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:03:40,967 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 81834
+2022-10-21 20:03:40,967 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:03:40,967 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 201075
+2022-10-21 20:08:28,224 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 20:08:28,321 [1] ERROR Assignment1.DirWalker [(null)] - The directory cannot be found.
+2022-10-21 20:08:28,563 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 287 ms
+2022-10-21 20:08:28,563 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:08:28,563 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 0
+2022-10-21 20:08:28,563 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:08:28,563 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 0
+2022-10-21 20:09:32,170 [1] INFO  Assignment1.DirWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 20:10:31,082 [1] INFO  Assignment1.DirWalker [(null)] - Total Duration: 58832 ms
+2022-10-21 20:10:31,084 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:10:31,084 [1] INFO  Assignment1.DirWalker [(null)] - Skipped Rows: 81834
+2022-10-21 20:10:31,084 [1] INFO  Assignment1.DirWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:10:31,084 [1] INFO  Assignment1.DirWalker [(null)] - Total Rows: 201075
+2022-10-21 20:34:32,864 [1] INFO  Assignment1.DirectoryWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 20:35:34,328 [1] INFO  Assignment1.DirectoryWalker [(null)] - Total Duration: 61407 ms
+2022-10-21 20:35:34,331 [1] INFO  Assignment1.DirectoryWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:35:34,331 [1] INFO  Assignment1.DirectoryWalker [(null)] - Skipped Rows: 81834
+2022-10-21 20:35:34,331 [1] INFO  Assignment1.DirectoryWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:35:34,331 [1] INFO  Assignment1.DirectoryWalker [(null)] - Total Rows: 201075
+2022-10-21 20:36:46,611 [1] INFO  Assignment1.DirectoryWalker [(null)] - ***********CSV Reader Program****************
+2022-10-21 20:37:47,626 [1] INFO  Assignment1.DirectoryWalker [(null)] - Total Duration: 60957 ms
+2022-10-21 20:37:47,627 [1] INFO  Assignment1.DirectoryWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:37:47,627 [1] INFO  Assignment1.DirectoryWalker [(null)] - Skipped Rows: 81834
+2022-10-21 20:37:47,627 [1] INFO  Assignment1.DirectoryWalker [(null)] - --------------------------------------------------------------
+2022-10-21 20:37:47,627 [1] INFO  Assignment1.DirectoryWalker [(null)] - Total Rows: 201075
